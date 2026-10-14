@@ -1,0 +1,33 @@
+/* оформление всей страницы*/
+body{
+    background: #171326; /*цвет фона*/
+    font-family: Arial, Helvetica, sans-serif;  /*семейство шрифтов*/
+    justify-content: center;  /*чтобы все было по середине*/
+    align-items: center;
+    display: flex;
+    height: 100vh; /*все окно браузера*/
+}
+/*неоновая кнопка
+     свечение вокруг кнопки
+    плавное изменения стиля*/
+.neonButton{
+    color: white; /*цвет текста кнопки*/
+    border: 2px solid #f83fa8; /*рамка у кнопки*/
+    padding: 20px 45px 20px 45px; /*внутренний отступ*/
+    font-size: 22px; /* размер шрифта*/
+    background-color: transparent; /* задний фон кнопки*/
+    cursor: pointer;/*рука*/
+    box-shadow: 0 0 15px #f83fa8; /*cвечение кнопки*/
+    transition: 0.3s; /* плавный переход между точкой а и б*/
+    
+}
+
+/*Эффект  при наведении мыши*/
+.neonButton:hover{
+    background: #f83fa8;
+    color: #171326;
+    box-shadow: 0 0 35px;
+    transform: scale(1.1);
+
+
+}
